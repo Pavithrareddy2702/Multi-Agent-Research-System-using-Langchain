@@ -219,28 +219,24 @@ Multi-Agent-Research-System/
 
 ## 🔧 Installation
 
-### Clone Repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Multi-Agent-Research-System-using-Langchain.git
+git clone https://github.com/Pavithrareddy2702/Multi-Agent-Research-System-using-Langchain.git
 
 cd Multi-Agent-Research-System-using-Langchain
 ```
 
-### Create Virtual Environment
+### Create a Conda Environment
 
 ```bash
-python -m venv venv
+conda create -n langagent python=3.11
 ```
 
-Activate:
+### Activate the Environment
 
 ```bash
-# Windows
-venv\Scripts\activate
-
-# Linux / Mac
-source venv/bin/activate
+conda activate langagent
 ```
 
 ### Install Dependencies
@@ -249,31 +245,26 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+### Configure Environment Variables
 
-## 🔑 Environment Variables
-
-Create a `.env` file:
+Create a `.env` file in the project root:
 
 ```env
 GROQ_API_KEY=your_groq_api_key
 TAVILY_API_KEY=your_tavily_api_key
 ```
 
----
-
-## ▶️ Run Locally
+### Run the Application
 
 ```bash
 streamlit run app.py
 ```
 
-Application will start at:
+The application will be available at:
 
 ```text
 http://localhost:8501
 ```
-
 ---
 
 ## 🌍 Deployment
@@ -284,18 +275,6 @@ This project is deployed on Render:
 
 https://multi-agent-research-system-using.onrender.com
 
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home Page
-* Research Pipeline
-* Generated Report
-* Critic Feedback
-
----
 
 ## 🔮 Future Enhancements
 
@@ -324,24 +303,11 @@ Try researching:
 
 ---
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome.
-
-Feel free to fork the repository and submit a pull request.
-
----
-
-## ⭐ Support
-
-If you found this project useful, please consider giving it a star ⭐ on GitHub.
-
-It helps others discover the project and supports future development.
 
 ---
 
 ## 👨‍💻 Author
 
-Developed by Ranjith Kumar
+Developed by Pavithra Reddy
 
 Passionate about AI, Machine Learning, Agentic AI Systems, and Full-Stack Development.
